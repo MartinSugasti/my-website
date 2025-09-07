@@ -1,11 +1,11 @@
 const App = () => (
   <div className="text-dark bg-light px-1 px-sm-2 px-md-5 py-5 border-2 rounded-2">
-    <div className="d-flex justify-content-center align-items-center mb-0">
-      <h1 className="fw-semibold text-center mb-0 me-3">MARTÍN SUGASTI</h1>
-            <a
+    <div className="text-center mb-0 d-md-flex justify-content-md-center align-items-md-center">
+      <h1 className="fw-semibold mb-0 me-md-3">MARTÍN SUGASTI</h1>
+      <a
         href="/Martin_Sugasti_Resume.pdf"
         download="Martin_Sugasti_Resume.pdf"
-        className="btn btn-outline-dark btn-sm"
+        className="btn btn-outline-dark btn-sm mt-3 mt-md-0"
         title="Download Resume PDF"
       >
         <i className="bi bi-download me-1"></i>
