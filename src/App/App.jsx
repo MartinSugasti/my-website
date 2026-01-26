@@ -33,7 +33,7 @@ const App = () => (
       </div>
 
       <p className="mt-3 mb-0">
-        I am an industrial engineer, with experience working in supply chain. However, due to vocational preferences, I decided on a change in my professional profile and started studying Software Engineering and working as a Full Stack developer.
+        Full Stack Developer with over 6 years of experience building scalable web applications for international companies. Originally a degreed Industrial Engineer with a 5-year background in Supply Chain , I transitioned into Software Engineering to align with my vocational passion for technology. I combine a rigorous engineering mindset with expertise in the Ruby on Rails and React ecosystems to deliver robust, business-driven solutions.
       </p>
     </div>
 
