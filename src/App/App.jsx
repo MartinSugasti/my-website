@@ -64,7 +64,7 @@ const App = () => (
         </div>
 
         <p className="mb-0">
-          Full-stack developer for a US-based client via staff augmentation, architecting scalable applications with Ruby on Rails and React/Redux. Managed end-to-end integrations of Stripe, Salesforce, and Twilio APIs, leveraging GCP, and Google Pub/Sub for event-driven architecture and cloud deployment, while ensuring reliability through Honeybadger.
+          Full-stack developer for a US-based client via staff augmentation, architecting scalable applications with Ruby on Rails and React/Redux. Managed end-to-end integrations of Stripe, Salesforce, and Twilio APIs, leveraging GCP and Google Pub/Sub for event-driven architecture and cloud deployment, while ensuring reliability through Honeybadger.
         </p>
         <ul>
           <li>Architected a complex billing simulator that allowed developers and QA to mock future events, significantly reducing debugging time and preventing production errors.</li>
