@@ -16,24 +16,29 @@ const App = () => (
     {/* Personal Information */}
     <div>
       <div className="row text-center mt-3">
-        <span className="col-12 col-md-4 card-text">
+        <span className="col-12 col-md-3 card-text">
           <i className="bi bi-envelope-at me-2" />
           martinsugasti@gmail.com
         </span>
 
-        <span className="col-12 col-md-4 card-text mt-2 mt-md-0">
+        <span className="col-12 col-md-3 card-tex mt-2 mt-md-0">
+          <i className="bi bi-linkedin me-2" />
+          LinkedIn
+        </span>
+
+        <span className="col-12 col-md-3 card-text mt-2 mt-md-0">
           <i className="bi bi-phone me-2" />
           +598 98 704 890
         </span>
 
-        <span className="col-12 col-md-4 card-tex mt-2 mt-md-0">
+        <span className="col-12 col-md-3 card-tex mt-2 mt-md-0">
           <i className="bi bi-geo-alt me-2" />
           Uruguay | Remote
         </span>
       </div>
 
       <p className="mt-3 mb-0">
-        Full Stack Developer with over 6 years of experience building scalable web applications for international companies. Originally a degreed Industrial Engineer with a 5-year background in Supply Chain , I transitioned into Software Engineering to align with my vocational passion for technology. I combine a rigorous engineering mindset with expertise in the Ruby on Rails and React ecosystems to deliver robust, business-driven solutions.
+        Full Stack Developer with over 6 years of experience building scalable web applications for international companies. Originally a degreed Industrial Engineer with a 5-year background in Supply Chain, I transitioned into Software Engineering to align with my vocational passion for technology. I combine a rigorous engineering mindset with expertise in the Ruby on Rails and React ecosystems to deliver robust, business-driven solutions.
       </p>
     </div>
 
@@ -43,18 +48,20 @@ const App = () => (
 
       <p className="fw-semibold mt-1 mb-0">Ruby On Rails - React - SQL - Scrum</p>
 
-      <p className="mt-1 mb-0">Git - Javascript - Redux - React Router - CSS - Heroku - GCP - Stripe - Mailgun - Twilio  - Salesforce - Postman - Honeybadger</p>
+      <p className="mt-1 mb-0">Git - JavaScript - Redux - React Router - CSS - PostgreSQL - Sidekiq - Heroku - GCP - Postman - Google Pub/Sub</p>
+
+      <p className="mt-1 mb-0">Stripe - Mailgun - Twilio - Salesforce - Honeybadger</p>
     </div>
 
     {/* Work Experience */}
     <div>
-      <h4 className="fw-semibold mt-3 mb-0">WORK EXPERIENCE</h4>
+      <h4 className="fw-semibold mt-3 mb-0">PROFESSIONAL EXPERIENCE</h4>
 
       <div className="mt-1">
         <div className="row">
           <div className="col-12 col-md-6">
             <p className="mb-0 fw-bold">Full Stack Developer</p>
-            <p className="mb-0 fw-bold">Vairix</p>
+            <p className="mb-0 fw-bold">Vairix / Ampion</p>
           </div>
 
           <div className="col-12 col-md-6">
@@ -64,11 +71,11 @@ const App = () => (
         </div>
 
         <p className="mb-0">
-          Full-stack developer for a US-based client via staff augmentation, architecting scalable applications with Ruby on Rails and React/Redux. Managed end-to-end integrations of Stripe, Salesforce, and Twilio APIs, leveraging GCP and Google Pub/Sub for event-driven architecture and cloud deployment, while ensuring reliability through Honeybadger.
+          Full-stack developer for a US-based client via staff augmentation, architecting scalable applications with Ruby on Rails and React/Redux/React Router. Managed end-to-end integrations of Stripe, Salesforce, and Twilio APIs, leveraging GCP and Google Pub/Sub for event-driven architecture and cloud deployment, while ensuring reliability through Honeybadger.
         </p>
         <ul>
           <li>Architected a complex billing simulator that allowed developers and QA to mock future events, significantly reducing debugging time and preventing production errors.</li>
-          <li>Built a tracking system integrated with Salesforce to automate the identification and management of non-paying accounts.</li>
+          <li>Built a tracking system integrated with Salesforce to automate the identification and management of non-payers.</li>
           <li>Engineered a "Green Investment" feature allowing customers to contribute to renewable energy projects, designed to generate $10,000 in monthly recurring revenue.</li>
         </ul>
       </div>
@@ -127,7 +134,7 @@ const App = () => (
         </div>
 
         <p className="mb-0">
-          Supervised production plan on a daily basis, coordinating activities with three production supervisors and one QA supervisor.
+          Supervised dailyproduction plan, coordinating activities with three production supervisors and one QA supervisor.
         </p>
       </div>
 
@@ -179,15 +186,7 @@ const App = () => (
 
     {/* Links Of Interests */}
     <div>
-      <h4 className="fw-semibold mt-3 mb-0">LINKS OF INTERESTS</h4>
-
-      <p className="mt-1 mb-0">
-        <span className="fw-bold me-2">LinkedIn</span>
-
-        <a className="text-dark" href="https://www.linkedin.com/in/martin-sugasti-ab2aa391/" target="_blank" rel="noopener noreferrer">
-          <i className="bi bi-box-arrow-up-right" />
-        </a>
-      </p>
+      <h4 className="fw-semibold mt-3 mb-0">PROJECTS</h4>
 
       <p className="mt-1 mb-0">
         <span className="me-2">
@@ -195,10 +194,41 @@ const App = () => (
             Simplest Resumes
           </span>
           {' - '}
-          RoR / React Personal Project
+          Full-Stack RoR / React Personal Project
         </span>
 
+        <a className="text-dark me-2" href="https://github.com/MartinSugasti/simplest-resumes" target="_blank" rel="noopener noreferrer">
+          <i className="bi bi-box-arrow-up-right" />
+        </a>
         <a className="text-dark" href="https://github.com/MartinSugasti/simplest-resumes" target="_blank" rel="noopener noreferrer">
+          <i className="bi bi-github" />
+        </a>
+      </p>
+
+      <p className="mt-1 mb-0">
+        <span className="me-2">
+          <span className="fw-bold">
+            Ampion
+          </span>
+          {' - '}
+          Vairix's client
+        </span>
+
+        <a className="text-dark" href="https://ampion.net/" target="_blank" rel="noopener noreferrer">
+          <i className="bi bi-box-arrow-up-right" />
+        </a>
+      </p>
+
+      <p className="mt-1 mb-0">
+        <span className="me-2">
+          <span className="fw-bold">
+            Pilio
+          </span>
+          {' - '}
+          Eagerworks's client
+        </span>
+
+        <a className="text-dark" href="https://www.piliogroup.com/" target="_blank" rel="noopener noreferrer">
           <i className="bi bi-box-arrow-up-right" />
         </a>
       </p>
@@ -212,8 +242,11 @@ const App = () => (
           Insurance Broker Website
         </span>
 
-        <a className="text-dark" href="https://www.urseseguros.com.uy" target="_blank" rel="noopener noreferrer">
+        <a className="text-dark me-2" href="https://www.urseseguros.com.uy" target="_blank" rel="noopener noreferrer">
           <i className="bi bi-box-arrow-up-right" />
+        </a>
+        <a className="text-dark" href="https://github.com/MartinSugasti/urse-seguros" target="_blank" rel="noopener noreferrer">
+          <i className="bi bi-github" />
         </a>
       </p>
 
@@ -248,7 +281,7 @@ const App = () => (
           <p className="mb-0">
             <span className="fw-bold">Project Manager</span>
             {' - '}
-            Ampion (Vairix's client)
+            Ampion
           </p>
         </div>
 
@@ -259,7 +292,7 @@ const App = () => (
           <p className="mb-0">
             <span className="fw-bold">Principal Software Engineer</span>
             {' - '}
-            Ampion (Vairix's client)
+            Ampion
           </p>
         </div>
       </div>
@@ -283,7 +316,7 @@ const App = () => (
           <p className="mb-0">
             <span className="fw-bold">Project Manager</span>
             {' - '}
-            Pilio (Eagerworks's client)
+            Pilio
           </p>
         </div>
       </div>
