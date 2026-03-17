@@ -22,8 +22,10 @@ const App = () => (
         </span>
 
         <span className="col-12 col-md-3 card-tex mt-2 mt-md-0">
+        <a className="text-dark text-decoration-none" href="https://www.linkedin.com/in/martin-sugasti-ab2aa391/" target="_blank" rel="noopener noreferrer">
           <i className="bi bi-linkedin me-2" />
           LinkedIn
+        </a>
         </span>
 
         <span className="col-12 col-md-3 card-text mt-2 mt-md-0">
@@ -197,7 +199,7 @@ const App = () => (
           Full-Stack RoR / React Personal Project
         </span>
 
-        <a className="text-dark me-2" href="https://github.com/MartinSugasti/simplest-resumes" target="_blank" rel="noopener noreferrer">
+        <a className="text-dark me-2" href="https://simplestresumes.com/" target="_blank" rel="noopener noreferrer">
           <i className="bi bi-box-arrow-up-right" />
         </a>
         <a className="text-dark" href="https://github.com/MartinSugasti/simplest-resumes" target="_blank" rel="noopener noreferrer">
